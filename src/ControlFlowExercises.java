@@ -10,32 +10,32 @@ public class ControlFlowExercises {
 //        while (i < 10) {
 //            System.out.println("i is " + i);
 //            i++;
-////      }
+//      }
 //        int i = 5;
 //        while (i <= 15) {
-//            System.out.println(i);
+//            System.out.print(i + " ");
 //            i++;
 //        }
-
-//         1. b. Do While
+//
+////         1. b. Do While
 //        int num = 0;
 //        do {
 //            System.out.println(num);
 //            num += 2;
 //        } while (num <= 100) ;
-
+////
 //        int num = 100;
 //        do {
 //            System.out.println(num);
 //            num -= 5;
 //        } while (num >= -10) ;
-
+//
 //            long num = 2;
 //            do {
 //                System.out.println(num);
 //                num *= num;
 //            } while (num < 1000000);
-
+////
 //        for(long num = 2; num <= 100; num += 2) {
 //            System.out.println(num);
 //        }
@@ -43,6 +43,8 @@ public class ControlFlowExercises {
 //        for(long num = 2; num <1000000; num *= num){
 //            System.out.println(num);
 //        }
+//
+//     ----------      2. FizzBuzz  ----------
 
 //        for(long num = 1; num <= 100; num++) {
 //            if (num % 3 == 0 & num % 5 == 0) {
@@ -55,12 +57,19 @@ public class ControlFlowExercises {
 //                System.out.println(num);
 //            }
 //        }
+
+//          3.
         Scanner scanner = new Scanner (System.in);
 
-        System.out.println("Please enter a number.");
-        String num = scanner.nextLine();
-        int tableNum = (Integer.parseInt(num)*= Integer.parseInt(num));
-        System.out.println(tableNum);
+        System.out.println("Please enter an integer.");
+        Scanner sc = new Scanner(System.in);
+        int userInt = sc.nextInt();
+//        System.out.println(userInt + " | " + " | " + Math.pow(userInt));
+//        write a loop that starts at 1 and counts up to userINt
+
+
+
+
 
     }
 }
