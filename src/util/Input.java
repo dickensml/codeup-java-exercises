@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Input {
 
+    public static void main(String[] args) {
+
     private Scanner scanner;
 
     public Input() {
@@ -12,10 +14,26 @@ public class Input {
 
     public String getString() {
         System.out.println("Please enter a string: ");
-        String userInput = scanner.nextLine();
-        return userInput;
+        String userInputStr = scanner.nextLine();
+        return userInputStr;
     }
 
+    public boolean yesNo() {
+        System.out.println("The earth is flat?  Yes or no (y/n: ");
+    String input = scanner.next();
+    return input.equalsIgnoreCase("y");
+    }
+
+    public int getInt(int min, int max) {
+        System.out.println("Please enter a string: ");
+        int userInputInt = scanner.nextLine();
+
+    }
+
+    public int getInt() {
+        String prompt "Please enter an integer between: " + min + " ane " + max;
+            System.out.println((prompt));
+        in user
 
 
-}
+}}
