@@ -1,7 +1,7 @@
 package movies;
 
 import util.Input;
-import java.util.Scanner;
+
 public class MoviesApplication {
     public static void getMovies(String category, Movie[] movies) {
         for (Movie movie : movies) {
@@ -10,7 +10,6 @@ public class MoviesApplication {
             }
         }
     }
-
 
     public static void main(String[] args) {
         Input input = new Input();
