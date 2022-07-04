@@ -35,7 +35,7 @@ public class GradesApplication {
 
         //command line output
         System.out.println("Welcome!\n");
-        System.out.println("Here are our Github students' usernames:\n");
+        System.out.println("Here are our students' Github usernames:\n");
         //this is how to loop a hashmap do not forget the .entryset()
         for (Map.Entry<String, Student> student :
                 students.entrySet()) {
@@ -44,7 +44,7 @@ public class GradesApplication {
         Scanner scanner = new Scanner(System.in);
         String continueGrades;
         do {
-            System.out.println("\n\nWhat students would you like to see more information on?\n\n >");
+            System.out.println("\nWhat student would you like to see more information on?\n\n >");
             String input = scanner.next() + scanner.nextLine();
             if (students.containsKey(input)) {
                 System.out.println("\nName: " + students.get(input).getName() + " - Github Username: " + input + "\nCurrent Average: " + students.get(input).getGradeAverage());
