@@ -20,7 +20,7 @@ public class HighLow {
         }else {
             System.out.println("LOWER");
         }
-//        System.out.println(randomNum);
+//  has to run again or a number of guess until number is chosen
     }
 
     public static void main(String[] args) {
